@@ -403,7 +403,7 @@ export function normalizeURL(
     smiLoose = elem;
   }
 
-  smi.url = new URL(smiLoose.url, hostname).toString();
+  smi.url = decodeURIComponent(new URL(smiLoose.url, hostname).toString());
 
   let img: Img[] = [];
   if (smiLoose.img) {
