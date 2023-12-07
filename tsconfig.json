@@ -11,6 +11,6 @@
     "moduleResolution": "node",
     "lib": ["es2018"]
   },
-  "include": ["index.js", "cli.ts"],
+  "include": ["index.ts", "cli.ts"],
   "exclude": ["node_modules"]
 }

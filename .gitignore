@@ -2,7 +2,6 @@
 *.swp
 env/
 node_modules/
-dist
 
 # editors
 .idea/
