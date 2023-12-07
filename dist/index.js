@@ -11,11 +11,6 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.simpleSitemapAndIndex = exports.IndexObjectStreamToJSON = exports.XMLToSitemapIndexStream = exports.parseSitemapIndex = exports.ObjectStreamToJSON = exports.XMLToSitemapItemStream = exports.parseSitemap = exports.xmlLint = exports.ReadlineStream = exports.normalizeURL = exports.validateSMIOptions = exports.mergeStreams = exports.lineSeparatedURLsToSitemapOptions = exports.SitemapStream = exports.streamToPromise = exports.SitemapAndIndexStream = exports.SitemapIndexStream = exports.IndexTagNames = exports.SitemapItemStream = void 0;
-/*!
- * Sitemap
- * Copyright(c) 2011 Eugene Kalinin
- * MIT Licensed
- */
 var sitemap_item_stream_1 = require("./lib/sitemap-item-stream");
 Object.defineProperty(exports, "SitemapItemStream", { enumerable: true, get: function () { return sitemap_item_stream_1.SitemapItemStream; } });
 var sitemap_index_stream_1 = require("./lib/sitemap-index-stream");

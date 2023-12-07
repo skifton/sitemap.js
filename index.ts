@@ -1,8 +1,3 @@
-/*!
- * Sitemap
- * Copyright(c) 2011 Eugene Kalinin
- * MIT Licensed
- */
 export {
   SitemapItemStream,
   SitemapItemStreamOptions,

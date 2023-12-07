@@ -1,8 +1,3 @@
-/*!
- * Sitemap
- * Copyright(c) 2011 Eugene Kalinin
- * MIT Licensed
- */
 export { SitemapItemStream, SitemapItemStreamOptions, } from './lib/sitemap-item-stream';
 export { IndexTagNames, SitemapIndexStream, SitemapIndexStreamOptions, SitemapAndIndexStream, SitemapAndIndexStreamOptions, } from './lib/sitemap-index-stream';
 export { streamToPromise, SitemapStream, SitemapStreamOptions, } from './lib/sitemap-stream';
